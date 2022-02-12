@@ -3,7 +3,7 @@
 \geometry{a4paper,total={171.8mm,246.2mm},left=19.1mm,top=25.4mm,}
 \usepackage{mathrsfs}
 
-\title{凯莱《一般拓扑学》公理集合论附录\\ 的翻译纠误与商榷}
+\title{凯莱《一般拓扑学》公理集合论附录中\\ 引起悖论的误译}
 \author{龙\quad 冰}
 \date{}
 
@@ -11,7 +11,7 @@
 \maketitle
 \begin{abstract}
 科学出版社数学名著译丛 对 John L. Kelley 《 一般拓扑学》一书的 1982 年中文版, 全新排版出版了 2010 年第二版.
-本文讨论新版中对序数和分类公理模式等仍未纠正的翻译错误.
+本文讨论新版公理集合论附录中引起悖论的误译, 也对另几处商榷.
 \end{abstract}
 	
 关键词: 集合 (set); 类 (class); 序类 (ordinal); 
@@ -49,6 +49,60 @@ II. Classification axiom-scheme. An axiom results if ... 意思是说, "如果 .
 \section{其它}
 
 第 176 页最后一行: 故得知  $\bigcap \mathscr{U}$ 没有元, 显然(即定理 26) $\bigcup \mathscr{U}\subset\mathscr{U}$.
+
+\subsection{定理 94 证明的误译(第 182 页 )}
+
+\subsubsection{原著英文} 
+{\bf 94 THEOREM} 
+{\sl
+	If $x$ is an $r$-section of $y$ and $f$ is an $r$-$r$ order-preserving function on $x$ to $y$, 
+	then for each $u$ in $x$ it is false that $fu)\, r\, u$.
+}
+
+{\bf PROOF}
+It must be shown that $\{u: u \in x $ and $ f(u) \, r\, u\}$ is void. 
+\underline{If not there is} an $r$-first member $v$ of this class.
+Then $f(v)\, r\, v $, and if $u\, r\, v$, then $u\, r\, f(u)$ or $u = f(u)$.
+Since $f(v)\, r\, v$, then 
+\underline{$f(v)\, r\, f(f(v))$}
+or $f(v) = f(f(v))$, but since $f$ is $r$-$r$ order preserving
+$f(f(v))\, r\, f(v)$ and this is a contradiction.
+
+\subsubsection{书中误译} 
+{\bf 定理 94}\,
+{\kaishu
+如果 $x$为$y$的一个$r$- 截片且$f$是一个在$x$上到$y$的$r$-$r$保序函
+数，则对于在$x$中的每个$u$, $f(u)ru$不真.
+}
+
+{\bf 证明}
+为了得此定理必须证明$\{u: u \in x $ 且 $ f(u) ru\}$ 是空的. 
+\underline{如果不存在}
+一个此类的$r$- 首元 $v$, 
+则 $f(v) r  v $，并且如果$u r v$，则 $u r f(u)$
+或者$u = f(u)$.
+由于$f(v)rv$, 于是
+\underline{$f(v)r(f(v))$}
+或者$f(v)=f(f(v))$. 但是由于$f$ 是$r$-$r$保序的,所以
+$f(f(v))rf(v)$, 从而推得一矛盾.
+
+\subsubsection{更正译文} 
+{\bf 定理 94}\,
+{\kaishu
+	如果 $x$为$y$的一个$r$ 截片且$f$是一个在$x$上到$y$的$r$-$r$保序函
+	数，则对于在$x$中的每个$u$, $f(u)\, r\, u$不真.
+}
+
+{\bf 证明}
+必须证明$\{u: u \in x $ 且 $ f(u) \, r\, u\}$ 是空的. 
+\underline{如果不空, 那末存在}
+该类的一个$r$首元 $v$.
+然后 $f(v)\, r\, v $,并且,如果$u\, r\, v$,则 $u\, r\, f(u)$
+或者$u = f(u)$.
+由于$f(v)\, r\, v$, 于是
+\underline{$f(v)\, r\, f(f(v))$}
+或者$f(v)=f(f(v))$. 但是由于$f$ 是$r$-$r$保序的,所以
+$f(f(v))\, r\, f(v)$, 从而推得一矛盾.
 
 \begin{thebibliography}{9}
 	\bibitem{jkelley1975}
