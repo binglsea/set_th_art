@@ -12,7 +12,7 @@
 \maketitle
 \begin{abstract}
 科学出版社数学名著译丛 1982 年 翻译出版了 John L. Kelley 《 一般拓扑学》一书的中文版,  2010 年全新排版出版了第二版.
-本文讨论新版公理集合论附录中的误译.其中对序类的误译明显产生悖论.
+本文讨论新版公理集合论附录中的误译.其中对序类的误译和正则公理抵触而明显产生悖论.
 \end{abstract}
 	
 关键词: 集合 (set); 类 (class); 序类 (ordinal); 
@@ -21,7 +21,7 @@
 	
 	
 	
-\section{导言}
+\section{引言}
 科学出版社1982 年在数学名著译丛中首度出版了吴从炘和吴让泉翻译的凯莱  (John L. Kelley) 《 General  Topology》\cite{jkelley1975}一书的中文版 《 一般拓扑学》.时隔 28 年, 2010 年又全新排版出版了中文 第二版\cite{jkelley2010zh}, 可见原著对一般拓扑学领域的发展影响甚大. 反映在教材编写上也是如此\cite{PuJiangHu1985}.译者两版中文译本的工作无疑是值得肯定的. 不太为人知的是, Kelley 该书关于公理集合论附录的重要意义. 该书第 0 章预备知识介绍了一般拓扑学所需的 (非公理化的) 集合论知识, 大部分读者满足于此. 
 附录将第 0 章的集合论浓缩式地公理化, 虽然称之为初等集合论, 却艰深难懂. 领略一下, 公理集合论附录的英文原文 31 页. 讲了集合的各种运算和大部分公理, 花了整整 21 页后读者才在无穷公理中见识到了真正的集合存在. 之前只是说, 属于某个类的类是集合, 但没有见到集合. 只是假定, 如果集合存在的话怎样怎样. 比如, 如果集合存在的话, 空类 0 是一个集合,即空集. 如此, 必然有大部分读者敬而畏之, 望而止步. 
 
@@ -37,16 +37,16 @@ Morse-Kelley 集合论\cite{wikiMKSetTheory} 和 Tarski–Grothendieck 集合论
 Russell 悖论. 正则公理的目的是防止集合出现 $x\in x$ 或 
 $x\in x_1 \in x_2 \in \cdots \in x_n \in x$
 之类的逻辑自指. 该节从第一个定义/定理 (定理101)开始一直到 定义 115 之前, 都未自动假设 一个 ordinal $\in$ 另一个类. 所以一个 ordinal 是一个类, 但不必是一个集合.
-事实上, 原著有
+事实上, 原著(\cite{jkelley1975} 第268 - 269页)有
 
-{\bf 113 THEOREM}(\cite{jkelley1975} 第268页)\,
+{\bf 113 THEOREM}\,
 {\sl 
 	$R$ is an ordinal and $R$ is not a set.
 }
 
 \noindent 与 ordinal 不是同, 原著定义 ordinal number 如下
 
-{\bf 115 DEFINITION}(\cite{jkelley1975} 第269页)\,
+{\bf 115 DEFINITION}\,
 {\sl 
 	$x$ is an ordinal number if and only $x \in R$.
 }
@@ -54,19 +54,19 @@ $x\in x_1 \in x_2 \in \cdots \in x_n \in x$
 \noindent 重大区别在于, 一个 ordinal number 必定是一个集合, 原因是属于关系 $\in$.
 
 但是, 中译本不加区别, 把 ordinal  和 ordinal number 都译成了序数. 正确的翻译是, 单纯的 ordinal 应当译为{\kaishu 序类}, 它不一定是集合. {\kaishu 序数}一词应当保留给 ordinal number, 它必定是一个集合. 整个一节都应当按此更正,这才能达到正则公理 IV 的目的.
-如果按不加区别的错误译法, 我们从下面两条译文看到的是悖论: 一个序数不是集合而同时又必定是一个集合.
+如果按不加区别的错误译法, 我们从下面两条译文(\cite{jkelley2010zh}第185页)看到的是悖论: 一个序数不是集合而同时又必定是一个集合.
 
-{\bf 定理 113}(\cite{jkelley2010zh}第185页)
+{\bf 定理 113}
 {\kaishu
 $R$是一个序数，但不是一个集.
 }
 
-{\bf 定义 115}(\cite{jkelley2010zh}第185页)
+{\bf 定义 115}
 {\kaishu
 $x$ 是一个序数当且仅当$x\in R$.
 }
 
-\noindent 显然, 需要更正的是,
+\noindent 显然, 定理 113 需要更正为:
 
 {\bf 定理 113}\, 
 {\kaishu
@@ -88,19 +88,12 @@ II. Classification axiom-scheme. An axiom results if ... 意思是说, "如果 .
 	
 译本是这样翻译的: "一个公理的许多结论, 如果..." 没有谓语, 动词改变意思成了复数名词.
 
-\section{其它}
-
-第 176 页最后一行: 故得知  $\bigcap \mathscr{U}$ 没有元, 显然(即定理 26) $\bigcup \mathscr{U}\subset\mathscr{U}$.
-
-第 182 页倒数第二行, 定理 97:
-$g^{-1}$ --- 此因     $f^{-1}$ 是保序的  ---此因 $g^{-1}$ 是保序的
-
-第 184 页第三行 类$E$是 $\in$关系：
 
 
-\subsection{定理 94 证明的误译(第 182 页 )}
 
-\subsubsection{原著英文} 
+\section{定理 94 证明的误译(第 182 页 )}
+
+\subsection{原著英文} 
 {\bf 94 THEOREM} 
 {\sl
 	If $x$ is an $r$-section of $y$ and $f$ is an $r$-$r$ order-preserving function on $x$ to $y$, 
@@ -116,7 +109,7 @@ Since $f(v)\, r\, v$, then
 or $f(v) = f(f(v))$, but since $f$ is $r$-$r$ order preserving
 $f(f(v))\, r\, f(v)$ and this is a contradiction.
 
-\subsubsection{书中误译} 
+\subsection{书中误译} 
 {\bf 定理 94}\,
 {\kaishu
 如果 $x$为$y$的一个$r$- 截片且$f$是一个在$x$上到$y$的$r$-$r$保序函
@@ -133,7 +126,7 @@ $f(f(v))\, r\, f(v)$ and this is a contradiction.
 或者$f(v)=f(f(v))$. 但是由于$f$ 是$r$-$r$保序的,所以
 $f(f(v))rf(v)$, 从而推得一矛盾.
 
-\subsubsection{更正译文} 
+\subsection{更正译文} 
 {\bf 定理 94}\,
 {\kaishu
 	如果 $x$为$y$的一个$r$ 截片且$f$是一个在$x$上到$y$的$r$-$r$保序函
@@ -150,6 +143,21 @@ $f(f(v))rf(v)$, 从而推得一矛盾.
 或者$f(v)=f(f(v))$. 但是由于$f$ 是$r$-$r$保序的,所以
 $f(f(v))\, r\, f(v)$, 从而推得一矛盾.
 
+
+\section{其它}
+
+\begin{tabular}{l l l l }
+	\hline
+	{\kaishu 译文页/行} & {\kaishu 原著英文} & {\kaishu 误译} & {\kaishu 更正译文} \\
+	\hline
+	182 / -2 & $g^{-1}$ is order preserving  & $f^{-1}$ 是保序的 & $g^{-1}$ 是保序的 \\
+	184 / 3 & The class $E$ is the $\in$-relation. &类$E$是 $E$关系. & 类$E$是 $\in$关系. \\
+	\hline
+\end{tabular}
+
+
+
+%第 176 页最后一行: 故得知  $\bigcap \mathscr{U}$ 没有元, 显然(即定理 26) $\bigcup \mathscr{U}\subset\mathscr{U}$.
 
 
 
