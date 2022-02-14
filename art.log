@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2021) (preloaded format=xelatex 2021.10.17)  13 FEB 2022 16:20
+This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2021) (preloaded format=xelatex 2021.10.17)  13 FEB 2022 23:19
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -400,9 +400,9 @@ LaTeX Font Warning: Font shape `U/rsfs/m/n' in size <15.05624> not available
 
 ]
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 35.
+(Font)              <8> on input line 36.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 35.
+(Font)              <6> on input line 36.
 
 
 Package fontspec Warning: Font "Kaiti SC" does not contain requested Script
@@ -437,20 +437,20 @@ Package fontspec Info: Font family 'KaitiSC(0)' created for font 'Kaiti SC'
 LaTeX Font Info:    Font shape `TU/SongtiSCLight(0)/m/sl' in size <12.045> not 
 available
 (Font)              Font shape `TU/SongtiSCLight(0)/m/it' tried instead on inpu
-t line 86.
-[2] [3] [4] (./art.aux)
+t line 95.
+[2] [3] [4] [5] (./art.aux)
 
 LaTeX Font Warning: Size substitutions with differences
 (Font)              up to 0.65625pt have occurred.
 
  ) 
 Here is how much of TeX's memory you used:
- 7113 strings out of 476919
- 208535 string characters out of 5821839
- 542398 words of memory out of 5000000
- 27013 multiletter control sequences out of 15000+600000
+ 7135 strings out of 476919
+ 210108 string characters out of 5821839
+ 543398 words of memory out of 5000000
+ 27035 multiletter control sequences out of 15000+600000
  409095 words of font info for 82 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 101i,8n,104p,406b,267s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 101i,8n,104p,406b,299s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on art.pdf (4 pages).
+Output written on art.pdf (5 pages).
