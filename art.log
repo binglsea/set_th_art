@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2021) (preloaded format=xelatex 2021.10.17)  15 FEB 2022 21:31
+This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2021) (preloaded format=xelatex 2021.10.17)  16 FEB 2022 17:02
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -421,9 +421,9 @@ LaTeX Font Warning: Font shape `U/rsfs/m/n' in size <15.05624> not available
 
 ]
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 39.
+(Font)              <8> on input line 42.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 39.
+(Font)              <6> on input line 42.
 
 
 Package fontspec Warning: Font "Kaiti SC" does not contain requested Script
@@ -458,15 +458,15 @@ Package fontspec Info: Font family 'KaitiSC(0)' created for font 'Kaiti SC'
 LaTeX Font Info:    Font shape `TU/SongtiSCLight(0)/m/sl' in size <12.045> not 
 available
 (Font)              Font shape `TU/SongtiSCLight(0)/m/it' tried instead on inpu
-t line 94.
+t line 97.
 [2]
 LaTeX Font Info:    Trying to load font information for OT2+lmr on input line 1
-37.
-LaTeX Font Info:    No file OT2lmr.fd. on input line 137.
+40.
+LaTeX Font Info:    No file OT2lmr.fd. on input line 140.
 
 
 LaTeX Font Warning: Font shape `OT2/lmr/m/n' undefined
-(Font)              using `OT2/cmr/m/n' instead on input line 137.
+(Font)              using `OT2/cmr/m/n' instead on input line 140.
 
 [3] [4] [5] (./art.aux)
 
@@ -484,6 +484,6 @@ Here is how much of TeX's memory you used:
  27221 multiletter control sequences out of 15000+600000
  443212 words of font info for 85 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 101i,10n,104p,401b,387s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 101i,10n,104p,401b,354s stack positions out of 5000i,500n,10000p,200000b,80000s
 
 Output written on art.pdf (5 pages).
