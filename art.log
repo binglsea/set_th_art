@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2021) (preloaded format=xelatex 2021.10.17)  21 FEB 2022 08:14
+This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2021) (preloaded format=xelatex 2021.10.17)  21 FEB 2022 13:46
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -468,7 +468,7 @@ LaTeX Font Info:    No file OT2lmr.fd. on input line 140.
 LaTeX Font Warning: Font shape `OT2/lmr/m/n' undefined
 (Font)              using `OT2/cmr/m/n' instead on input line 140.
 
-[3] [4] [5] (./art.aux)
+[3] [4] [5] [6] (./art.aux)
 
 LaTeX Font Warning: Size substitutions with differences
 (Font)              up to 0.65625pt have occurred.
@@ -484,6 +484,6 @@ Here is how much of TeX's memory you used:
  27221 multiletter control sequences out of 15000+600000
  443212 words of font info for 85 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 101i,10n,104p,399b,314s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 101i,10n,104p,399b,384s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on art.pdf (5 pages).
+Output written on art.pdf (6 pages).
